@@ -1,70 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio: Ella Paulina</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio: Ella Paulina</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div id="container">
-        <header>
-          <img src="img/profile pic hr.jpeg" alt="Profielfoto">
-          <nav>
-            <a href="#hobby">Naar Hobby's</a>
-            <a href="#learn">Naar wat ik wil leren</a>
-            <a href="#games">Game scores</a>
-          </nav>
-          <h1>Welkom, mijn naam is Ella !</h1>
-        </header>
-        <main>
-          <p>Ik ben geboren op Curacao en had naar Rotterdam verhuisd in 2020. Ik ben 25 jaar</p>
-        </main>
-        <section id=hobby>
-          <h2> Mijn Hobby's</h2>
-          <ul>
-            <li>tekenen</li>
-            <li>schilderen</li>
-            <li>rollerschaatsen</li>
-            <li>gamen</li>
-            <li>gymmen</li>
-          </ul>
-        </section>
-        <section class="text-content" id="learn">
-          <h2 > Wat will ik leren</h2>
-          <p>ik wil graag nieuwe skills leren in het programeer gebied</p>
-          <img src="https://source.unsplash.com/300x200/?cutedog" alt="Adorable doggo">
-        </section>
-        <section id="games">
+  <div id=container>
+    <header>
+      <h1 id=title>Portfolio: Ella Paulina</h1>
+
+      <nav>
+        <a class="menu-link" href="#biografie">Biografie</a>
+        <a class="menu-link" href="#skillsentalen">Skills & Talen</a>
+        <a class="menu-link" href="#portfolio">Portfolio</a>
+
+      </nav>
+    </header>
+    <section class="text-content" id="biografie">
+      <h2>Biografie</h2>
+      <h4>Hoi!</h4>
+      <p> Mijn naam is Ella Paulina zoals je ziet! Ik ben geboren op Willemstad, Cura<span>&ccedil;</span>ao en woon nu
+        in Rotterdam, Nederland. Ik studeer nu Creative Media & Game Technologies bij Hogeschool Rotterdam.</p>
+      <img class=profile-picture src="img/profile pic hr.jpeg" width="300" height="400" alt="Profielfoto">
+    </section>
+    <section class="text-content" id="skillsentalen">
+      <h4> Skills:</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+
+      </ul>
+      <h4>Talen</h4>
+      <ul>
+        <li>Engels</li>
+        <li>Nederlands</li>
+        <li>Papiaments</li>
+      </ul>
+    </section>
+    <main>
+      <section class="text-content" id="portfolio">
+        <h2> Wat heb ik gemaakt:</h2>
+
+        <h4> De Medi-bot</h4>
+
+        <p>In CLE1 (Sprint1) had ik de opdracht gekregen om een robot te maken die de leven van mijn groepsgenoot beter
+          maakt. Mijn groepgenoot heeft ADHD en moet elke dag haar medicatie innemen. Maar soms vergeet ze om de
+          medecijn in te nemen en als gevolg kan zij niet concentreren. Met de Circuit Playground
+          en Crickit had ik een timer robot gemaakt die zij kan ermee spelen.</p>
+        <img src="img/medibot - Copy.jpeg" width="300" height="400" alt="DeMedibot">
+        <section id="informatie">
           <table>
-            <thead>
-              <tr>
-                <th>Games</th>
-                <th>Cijfer</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Horizon: Forbidden West</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Far Cry 4
-                <td>7</td>
-              </tr>
-              <tr>
-                <td>Borderlands:Handsome Collection</td>
-                <td>8.5</td>
-              </tr>
-            </tbody>
+            <tr>
+              <th>Jaar</th>
+              <th>Afmetingen</th>
+              <th>Hardware</th>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>19x16x26 cm</td>
+              <td>Circuit Playground + Crickit</td>
+            </tr>
           </table>
         </section>
-        <footer>
-          <a href="https://www.instagram.com/shadowluvin/" target="_blank"> Ga naar mijn instagram!
-            <span>&copy; Ella 2022</span>
-            <marquee>Bad Bitch</marquee 
-            </footer>
-      </div>
+
+      </section>
+    </main>
+    <footer>
+      <span>&copy; Ella Paulina 2022</span>
+    </footer>
+  </div>
+
 </body>
+
 </html>

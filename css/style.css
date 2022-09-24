@@ -1,53 +1,109 @@
 body {
-    background-color: #c79de2;
-    margin: 10px;
-    padding: 0;
-    font-family: monospace;
-    font-size: 15px;
-  }
-  #container {
-    width: 80vw;
-    max-width: 1200px;
-    min-width: 300px;
-    margin: 0 auto;
-  }
-  
-  .text-content{
-    color: purple;
-  }
-  p {
-    color: purple;
-  }
-  a {
-    color: #aa54e5;
-  }
-  a:hover {
-    color: #e76fd5;
-  }
-  nav{
-    background-color: #e9d8f3;
-    
-  }
-  div{
-      background-color:#e9d8f3 ;
-    
-    }
-  
-  header{
-    
-    background-color: #312738;
-    color: #d2b1e8;
-  }
-  nav{
-    border: 25px;
-    border-color: red
-  }
-  main{
-    background-color: #e9d8f3;
-  }
-  section{
-    background-color: #7c628d;
-  }
-  footer{
-    margin-top: 20px;
-  }
+  background: rgb(230, 168, 215);
+  background: radial-gradient(circle,
+      rgba(230, 168, 215, 0.6) 60%,
+      rgba(173, 45, 253, 0.8) 100%);
+  font-family: Sans-serif, Verdana;
+  color: #372438;
+}
+
+#container {
+  width: 80vw;
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+
+}
+
+.menu-link {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #bdaebe;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(232, 184, 235, 0.3);
+}
+
+#title {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(89, 52, 92, 0.8);
+  color: #bdaebe;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #bdaebe;
+  border-radius: 10px;
+  overflow: hidden
+}
+
+#biografie {
+  color: #2b1b2c;
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 80vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  filter: contrast(1);
+}
+
+#skillsentalen {
+  color: #2b1b2c;
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 20vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+a {
+  color: #613d62;
+}
+
+a:hover {
+  color: #aa59ab;
+  text-decoration: none;
+}
+
+h4 {
+  color: #8e4894;
+}
+
+#portfolio {
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 80vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgb(26, 11, 37);
+  padding: 10px;
+  text-align: center;
+}
