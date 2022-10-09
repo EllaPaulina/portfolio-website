@@ -17,6 +17,8 @@ body {
 nav {
   padding: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -49,7 +51,7 @@ header {
   overflow: hidden
 }
 
-#biografie {
+.biografie {
   color: #2b1b2c;
   background-color: rgba(232, 184, 235, 0.3);
   width: 80vw;
@@ -58,10 +60,19 @@ header {
   border-radius: 10px;
   overflow: hidden;
   padding: 10px;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  
+}
+#overmij {
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 80vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
   margin-top: 20px;
 }
-
 .profile-picture {
   filter: contrast(1);
 }
@@ -69,7 +80,7 @@ header {
 #skillsentalen {
   color: #2b1b2c;
   background-color: rgba(232, 184, 235, 0.3);
-  width: 20vw;
+  width: 40vw;
   border-style: solid;
   border-color: #89468f;
   border-radius: 10px;
@@ -106,4 +117,12 @@ td {
   border-bottom: 1px solid rgb(26, 11, 37);
   padding: 10px;
   text-align: center;
+}
+@media (min-width:700px){
+  nav{
+    flex-direction: row;
+    justify-content : space-evenly;
+
+  }
+  
 }
