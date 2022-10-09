@@ -1,0 +1,128 @@
+body {
+  background: rgb(230, 168, 215);
+  background: radial-gradient(circle,
+      rgba(230, 168, 215, 0.6) 60%,
+      rgba(173, 45, 253, 0.8) 100%);
+  font-family: Sans-serif, Verdana;
+  color: #372438;
+}
+
+#container {
+  width: 80vw;
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.menu-link {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #bdaebe;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(232, 184, 235, 0.3);
+}
+
+#title {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(89, 52, 92, 0.8);
+  color: #bdaebe;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #bdaebe;
+  border-radius: 10px;
+  overflow: hidden
+}
+
+.biografie {
+  color: #2b1b2c;
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 80vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+  
+}
+#overmij {
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 80vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 20px;
+}
+.profile-picture {
+  filter: contrast(1);
+}
+
+#skillsentalen {
+  color: #2b1b2c;
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 40vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+a {
+  color: #613d62;
+}
+
+a:hover {
+  color: #aa59ab;
+  text-decoration: none;
+}
+
+h4 {
+  color: #8e4894;
+}
+
+#portfolio {
+  background-color: rgba(232, 184, 235, 0.3);
+  width: 80vw;
+  border-style: solid;
+  border-color: #89468f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgb(26, 11, 37);
+  padding: 10px;
+  text-align: center;
+}
+@media (min-width:700px){
+  nav{
+    flex-direction: row;
+    justify-content : space-evenly;
+
+  }
+  
+}
