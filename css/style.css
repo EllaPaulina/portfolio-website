@@ -19,7 +19,17 @@ nav {
   text-align: center;
   display: flex;
   flex-direction: column;
-
+  background-color: rgb(89, 52, 92, 0.8);
+  color: #bdaebe;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #bdaebe;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
 }
 
 .menu-link {
@@ -32,6 +42,7 @@ nav {
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(232, 184, 235, 0.3);
+
 }
 
 #title {
@@ -53,7 +64,7 @@ header {
 
 .biografie {
   color: #2b1b2c;
-  background-color: rgba(232, 184, 235, 0.3);
+  background-color: #e0c0e3;
   width: 80vw;
   border-style: solid;
   border-color: #89468f;
@@ -61,10 +72,11 @@ header {
   overflow: hidden;
   padding: 10px;
   margin: 0 auto;
-  
+
 }
-#overmij {
-  background-color: rgba(232, 184, 235, 0.3);
+
+.aboutme {
+  background-color: #e0c0e3;
   width: 80vw;
   border-style: solid;
   border-color: #89468f;
@@ -72,28 +84,48 @@ header {
   overflow: hidden;
   padding: 10px;
   margin-top: 20px;
-}
-.profile-picture {
-  filter: contrast(1);
+  display: flex;
 }
 
-#skillsentalen {
+.profile-picture {
+  filter: contrast(1);
+  display: flex;
+  justify-content: flex-start;
+  width: 40vw;
+  height: 30vw;
+  padding: 10px;
+}
+
+.demedibot-pic,
+.hahornah-pic,
+.garythejokebot-pic {
+  display: flex;
+  justify-content: flex-start;
+  width: 95%;
+}
+
+p {
+  text-align: justify;
+}
+
+#skillsandlanguages {
   color: #2b1b2c;
-  background-color: rgba(232, 184, 235, 0.3);
   width: 40vw;
   border-style: solid;
   border-color: #89468f;
   border-radius: 10px;
   overflow: hidden;
   padding: 10px;
+  margin-top: 20px;
+  background-color: #e0c0e3;
 }
 
-a {
-  color: #613d62;
-}
 
-a:hover {
-  color: #aa59ab;
+a:hover,
+a:link,
+a:visited,
+a:active {
+  color: #3b0e3c;
   text-decoration: none;
 }
 
@@ -101,15 +133,25 @@ h4 {
   color: #8e4894;
 }
 
-#portfolio {
-  background-color: rgba(232, 184, 235, 0.3);
+.demedibot,
+.hahornah,
+.garythejokebot {
   width: 80vw;
   border-style: solid;
   border-color: #89468f;
   border-radius: 10px;
   overflow: hidden;
   padding: 10px;
-  margin-top: 20px;
+  margin: 20px auto;
+  background-color: #e0c0e3;
+
+
+
+}
+
+
+.title {
+  text-align: center;
 }
 
 th,
@@ -118,11 +160,44 @@ td {
   padding: 10px;
   text-align: center;
 }
-@media (min-width:700px){
-  nav{
-    flex-direction: row;
-    justify-content : space-evenly;
 
+@media (min-width:700px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    margin: 0px;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #bdaebe;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
   }
-  
+
+  .demedibot,
+  .hahornah,
+  .garythejokebot {
+    display: flex;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .demedibot-pic,
+  .hahornah-pic,
+  .garythejokebot-pic {
+    margin: 0px;
+  }
+
+  #container {
+    margin: 0 auto;
+  }
+
 }
