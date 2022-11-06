@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id=title>Portfolio: Ella Paulina</h1>
+      </header>
+  
+        <nav class="navmom">
+          <a class="menu-link" href="biography.html">Biography</a>
+          <a class="menu-link" href="index.html">About Me</a>
+          <a class="menu-link" href="index.html">Skills & Languages</a>
+          <a class="menu-link" href="portfolio.html">Portfolio</a>
+          <a class="menu-link" href="contact.html">Contact</a>
+          </nav>
+    <h2 id="title">Contact</h1>
+    <main class="contact-form">
+
+        <form action="mailto:0996804@hr.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+            <div class="form-element">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Full Name">
+            </div>
+            <div class="form-element">
+                <label for="city">City</label>
+                <input id="city" type="text" name="city" placeholder="City">
+            </div>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Email Adress">
+            </div>
+            <div class="form-element">
+                <label for="date">Date</label>
+                <input id="date" type="date" name="date">
+            </div>
+            <div class="form-element">
+                <label for="category">Subject</label>
+                <select id="category" name="category">
+                    <option value="traditional-art">Traditional Art</option>
+                    <option value="digital-art">Digital Art</option>
+                    <option value="coding">Coding</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="question">Ask your question</label>
+                <textarea id="question" name="question" rows="4" cols="10"></textarea>
+            </div>
+
+
+            <div class="verzendknop">
+                <button type="submit">Versturen</button>
+            </div>
+        </form>
+</body>
+
+</html>
